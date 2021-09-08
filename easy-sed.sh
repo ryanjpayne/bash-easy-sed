@@ -4,7 +4,7 @@
 echo "Is the target file(s) in the current working directory?"
 echo -n "y/n: "
 read dir_answer
-if [[ "$dir_answer" == "n" ]]; then
+if [[ "$dir_answer" = "n" ]]; then
 	echo "Please enter the location of the target file."
 	echo "Example: If the target file is /opt/file.txt, enter /opt/"
 	echo -n "What is the location? "
